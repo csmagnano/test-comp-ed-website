@@ -1,9 +1,9 @@
 ---
 ---
 
-# csmagnano's Website
+# HMS and HSPH Computational Education
 
-An engaging 1-3 sentence description of your lab.
+This is a site to demo how we could display computational training events across HMS. 
 
 {% include section.html %}
 
@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See upcoming trainings"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="research"
-  title="Our Research"
+  title="Trainings"
   text=text
 %}
 
@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="Determine which training is right for you"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -51,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Our Projects"
+  title="Curriculum"
   flip=true
   style="bare"
   text=text
@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="Reach our to our our organizations"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -76,6 +76,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Our Team"
+  title="Member Organizations"
   text=text
 %}
