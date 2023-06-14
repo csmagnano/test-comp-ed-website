@@ -1,4 +1,4 @@
-.post-info {
+.training-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,23 +8,23 @@
   color: var(--gray);
 }
 
-.post-info .portrait {
+.training-info .portrait {
   margin: 0;
 }
 
-.post-info .icon {
+.training-info .icon {
   margin-right: 0.5em;
 }
 
-.post-info a {
+.training-info a {
   color: inherit;
 }
 
-.post-info a:hover {
+.training-info a:hover {
   color: var(--primary);
 }
 
-.post-info > span {
+.training-info > span {
   text-align: center;
   white-space: nowrap;
 }
