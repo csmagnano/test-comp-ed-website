@@ -1,5 +1,5 @@
 ---
-title: Trainings
+title: Upcoming Trainings
 nav:
   order: 5
   tooltip: Upcoming Computational Trainings at HMS

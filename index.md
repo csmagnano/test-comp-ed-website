@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="trainings"
+  link="upcoming-trainings"
   text="See upcoming trainings"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="trainings"
+  link="upcoming-trainings"
   title="Trainings"
   text=text
 %}
