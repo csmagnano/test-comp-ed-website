@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>404 | CompEdu at HMS</title>
+<title>Trainings | CompEdu at HMS</title>
 
 <link rel="icon" href="/test-comp-ed-website/images/icon.png">
 
-<meta name="title" content="404">
+<meta name="title" content="Trainings">
 <meta name="description" content="Testing a combined site for comp ed at HMS.">
 
-<meta property="og:title" content="404">
+<meta property="og:title" content="Trainings">
 <meta property="og:site_title" content="CompEdu at HMS">
 <meta property="og:description" content="Testing a combined site for comp ed at HMS.">
 <meta property="og:url" content="">
 <meta property="og:image" content="/test-comp-ed-website/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="404">
+<meta property="twitter:title" content="Trainings">
 <meta property="twitter:description" content="Testing a combined site for comp ed at HMS.">
 <meta property="twitter:url" content="">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,9 +69,9 @@
     
       "@type": "WebSite",
     
-    "name": "404",
+    "name": "Trainings",
     "description": "Testing a combined site for comp ed at HMS.",
-    "headline": "404",
+    "headline": "Trainings",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/test-comp-ed-website/images/icon.png" }
@@ -288,6 +288,56 @@
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -466,17 +516,47 @@
   
 
   <section class="background" data-size="page">
-    <h2 id="-page-not-found">
-<i class="icon fa-solid fa-heart-crack"></i> Page Not Found</h2>
+    <h1 id="trainings">
+<i class="icon fa-solid fa-feather-pointed"></i>Trainings</h1>
 
-<p class="center">Try searching the whole site for the content you want:</p>
+<p>See upcoming trainings here.</p>
+  </section>
 
-<form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google">
-  <button type="submit" class="button" aria-label="search site">
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
-</form>
+</div>
+
+<div class="tags" data-link="/test-comp-ed-website/trainings/">
+    
+      <a href="/test-comp-ed-website/trainings/?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+        biology
+      </a>
+    
+      <a href="/test-comp-ed-website/trainings/?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+        medicine
+      </a>
+    
+      <a href="/test-comp-ed-website/trainings/?search=%22tag:%20big%20data%22" class="tag" data-tooltip='Show items with the tag "big data"'>
+        big data
+      </a>
+    
+  </div>
+
+<div class="search-info"></div>
   </section>
 
 
