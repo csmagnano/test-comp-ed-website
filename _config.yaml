@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: CompEdu at HMS
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+description: Testing a combined site for comp ed at HMS.
 header: images/background.jpg
 footer: images/background.jpg
 
@@ -33,6 +33,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # markdown files in /_trainings
+  - scope:
+      type: "trainings"
+    values:
+      layout: training
 
 collections:
   # generate page for each member

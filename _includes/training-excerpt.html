@@ -1,0 +1,35 @@
+{% assign training = site.trainings 
+  | where_exp: "training", "training.slug == include.lookup"
+  | first
+  | default: include
+%}
+
+<div class="training-excerpt">
+  {% assign url = training.url %}
+  {% assign title = training.title %}
+  <a href="{{ url | relative_url }}">{{ title }}</a>
+
+  {%
+    include training-info.html
+    author=training.author
+    published=training.date
+    updated=training.last_modified_at
+    tags=training.tags
+  %}
+
+  {% assign excerpt = training.content
+    | default: ""
+    | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+    | default: training.excerpt
+    | default: ""
+    | strip_html
+  %}
+  {% assign search = training.content
+    | strip_html 
+    | strip_newlines
+    | regex_strip
+  %}
+  <p data-search="{{ search }}">
+    {{ excerpt }}
+  </p>
+</div>
