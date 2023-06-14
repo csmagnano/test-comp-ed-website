@@ -1,7 +1,7 @@
 ---
 ---
 
-.post-excerpt {
+.training-excerpt {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -13,19 +13,19 @@
   box-shadow: var(--shadow);
 }
 
-.post-excerpt > * {
+.training-excerpt > * {
   margin: 0 !important;
 }
 
-.post-excerpt > a:first-child {
+.training-excerpt > a:first-child {
   width: 100%;
   font-weight: var(--semi-bold);
 }
 
-.post-excerpt > div {
+.training-excerpt > div {
   justify-content: flex-start;
 }
 
-.post-excerpt > p {
+.training-excerpt > p {
   width: 100%;
 }
