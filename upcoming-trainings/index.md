@@ -5,7 +5,7 @@ nav:
   tooltip: Upcoming Computational Trainings at HMS
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Trainings
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}Upcoming Trainings
 
 See upcoming trainings here.
 
