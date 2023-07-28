@@ -1,8 +1,8 @@
 ---
-title: Research
+title: Curriculum
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Reccomended Courses and Curriculum
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
@@ -14,8 +14,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
 {% include section.html %}
 
 ## All
@@ -23,5 +21,3 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 {% include search-box.html %}
 
 {% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}

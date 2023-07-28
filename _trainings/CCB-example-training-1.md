@@ -1,10 +1,10 @@
 ---
 title: CCB Example Training 1
-author: sarah-johnson
+author: ccb
 tags:
   - biology
   - medicine
-  - big data
+  - single cell RNA-seq
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -38,7 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="projects"
+  link="curriculum"
   text="Determine which training is right for you"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -50,8 +50,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
-  title="Curriculum"
+  link="resources"
+  title="Resources"
   flip=true
   style="bare"
   text=text
@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="team"
-  text="Reach our to our our organizations"
+  text="Reach out to our our organizations"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"

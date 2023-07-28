@@ -1,5 +1,6 @@
 ---
-title: Projects
+title: Resources
+tooltip: Additional Educational Resources
 nav:
   order: 2
   tooltip: Software, datasets, and more
