@@ -1,4 +1,4 @@
-- title: Cool Dataset
+- title: Cool Resource
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
@@ -6,9 +6,10 @@
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
   tags:
-    - resource
+    - python
+    - coding
 
-- title: Cool Package
+- title: Useful video
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
@@ -16,7 +17,8 @@
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
   tags:
-    - resource
+    - statistics
+    - visualization
 
 - title: Cool Tutorial
   subtitle: a subtitle
@@ -28,7 +30,7 @@
     - resource
     - publication
 
-- title: Cool Web App
+- title: Interactive Web tutorial
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
@@ -37,7 +39,7 @@
   tags:
     - software
 
-- title: Cool Web Server
+- title: Other resources
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/

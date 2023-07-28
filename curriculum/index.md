@@ -5,10 +5,9 @@ nav:
   tooltip: Reccomended Courses and Curriculum
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Curriculum
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This page would include a guide for finding the right course or workshop for your needs, and different paths different roles can take to get up to date on their computational training. 
 
 {% include section.html %}
 
